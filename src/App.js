@@ -22,9 +22,9 @@ const App = () => {
       }}
     >
       <h1>{hex}</h1>
-      <button onClick={randomizedHex}>Randomize</button>
+      <button onClick={randomizedHex}>Generate</button>
       <button onClick={() => navigator.clipboard.writeText(hex)}>
-        CopyColor
+        Generated Color (Click to copy!)
       </button>
     </div>
   );
