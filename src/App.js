@@ -21,10 +21,10 @@ const App = () => {
         zoom: 3,
       }}
     >
-      <h1>{hex}</h1>
-      <button onClick={randomizedHex}>Generate</button>
+      <h1 class="title">{hex}</h1>
+      <button onClick={randomizedHex}>Generated Color</button>
       <button onClick={() => navigator.clipboard.writeText(hex)}>
-        Generated Color (Click to copy!)
+        Click to copy!
       </button>
     </div>
   );
